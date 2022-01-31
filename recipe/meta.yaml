@@ -43,6 +43,8 @@ requirements:
 test:
   imports:
     - yaqc_qtpy
+  commands:
+    - pip check
   requires:
     - pip
 
