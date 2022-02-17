@@ -45,9 +45,7 @@ test:
   imports:
     - yaqc_qtpy
   commands:
-    - pip check
-  requires:
-    - pip
+    - yaqc-qtpy --help
 
 about:
   home: https://yaq.fyi
