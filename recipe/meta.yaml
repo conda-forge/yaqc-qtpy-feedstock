@@ -34,7 +34,7 @@ requirements:
     - python >=3.7
     - qtconsole
     - qtpy
-    - qtypes >=2021.1.1
+    - qtypes >=2022.2.0
     - yaq-traits
     - yaqc
     - yaqd-control
