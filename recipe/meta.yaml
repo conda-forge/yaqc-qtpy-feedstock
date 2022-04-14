@@ -1,5 +1,5 @@
 {% set name = "yaqc-qtpy" %}
-{% set version = "2022.3.1" %}
+{% set version = "2022.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/yaqc-qtpy-{{ version }}.tar.gz
-  sha256: fe21738a228bec9819f7f42ef59d740618196f91b4a4dfce4015cedab626c049
+  sha256: a69b504c5e301406eda82aae39f46b4261527b77f1a0481ac18dd616433b0e32
 
 build:
   script_env:
