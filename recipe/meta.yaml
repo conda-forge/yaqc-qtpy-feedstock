@@ -27,6 +27,7 @@ requirements:
     - flit
     - python >=3.7
   run:
+    - appdirs
     - click
     - entrypoints
     - numpy
