@@ -1,5 +1,5 @@
 {% set name = "yaqc-qtpy" %}
-{% set version = "2022.4.0" %}
+{% set version = "2022.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/yaqc-qtpy-{{ version }}.tar.gz
-  sha256: a69b504c5e301406eda82aae39f46b4261527b77f1a0481ac18dd616433b0e32
+  sha256: 6a6b73fb3179882bc46a18a1de9fc6c8ced2fffb8d0f5e00ed816a8d598a4ead
 
 build:
   script_env:
@@ -35,11 +35,11 @@ requirements:
     - python >=3.7
     - qtconsole
     - qtpy
-    - qtypes >=2022.2.0
+    - qtypes >=2022.6.0
     - yaq-traits
     - yaqc
     - yaqd-control
-    - yaqd-core >=2020.06.3
+    - yaqd-core
     - pyqtgraph
 
 test:
