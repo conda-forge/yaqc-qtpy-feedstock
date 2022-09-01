@@ -13,7 +13,7 @@ source:
 build:
   script_env:
     - QT_QPA_PLATFORM=offscreen
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - yaqc-qtpy=yaqc_qtpy.__main__:main
@@ -49,6 +49,12 @@ test:
     - pip check
   requires:
     - pip
+
+app:
+  entry: yaqc-qtpy
+  icon: logo.png
+  summary: General purpose graphical client for yaq.
+  type: desk
 
 about:
   home: https://yaq.fyi
