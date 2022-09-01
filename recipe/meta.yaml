@@ -13,7 +13,7 @@ source:
 build:
   script_env:
     - QT_QPA_PLATFORM=offscreen
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - yaqc-qtpy=yaqc_qtpy.__main__:main
@@ -41,6 +41,12 @@ requirements:
     - yaqd-control
     - yaqd-core
     - pyqtgraph
+
+app:
+  entry: yaqc-qtpy
+  icon: logo.png
+  summary: General purpose graphical client for yaq.
+  type: desk
 
 test:
   imports:
