@@ -42,12 +42,6 @@ requirements:
     - yaqd-core
     - pyqtgraph
 
-app:
-  entry: yaqc-qtpy
-  icon: logo.png
-  summary: General purpose graphical client for yaq.
-  type: desk
-
 test:
   imports:
     - yaqc_qtpy
@@ -55,6 +49,12 @@ test:
     - pip check
   requires:
     - pip
+
+app:
+  entry: yaqc-qtpy
+  icon: logo.png
+  summary: General purpose graphical client for yaq.
+  type: desk
 
 about:
   home: https://yaq.fyi
