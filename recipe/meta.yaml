@@ -41,7 +41,7 @@ requirements:
     - yaqd-control
     - yaqd-core
     - pyqtgraph
-    - menuinst >=1.4.17
+    - menuinst
 
 test:
   imports:
