@@ -13,11 +13,11 @@ source:
 build:
   script_env:
     - QT_QPA_PLATFORM=offscreen
-  number: 1
+  number: 2
   noarch: python
   entry_points:
     - yaqc-qtpy=yaqc_qtpy.__main__:main
-  script: {{ PYTHON }} -m pip install . -vv
+  osx_is_app: true
 
 requirements:
   host:
@@ -41,6 +41,7 @@ requirements:
     - yaqd-control
     - yaqd-core
     - pyqtgraph
+    - menuinst >=1.4.17
 
 test:
   imports:
