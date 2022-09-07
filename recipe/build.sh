@@ -6,5 +6,5 @@ then
     cp "$RECIPE_DIR/app.icns" "$PREFIX/Menu"
 fi
 
-"$PYTHON" setup.py install || exit 1
+"$PYTHON" -m pip install || exit 1
 
