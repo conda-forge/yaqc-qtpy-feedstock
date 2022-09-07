@@ -24,14 +24,14 @@ requirements:
     - qtpy
     - yaqc
     - flit
-    - python >=3.7
+    - python
   run:
     - appdirs
     - click
     - entrypoints
     - numpy
     - pyside2
-    - python >=3.7
+    - python
     - qtconsole
     - qtpy
     - qtypes >=2022.6.0
