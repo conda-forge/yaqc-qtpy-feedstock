@@ -13,7 +13,7 @@ source:
 build:
   script_env:
     - QT_QPA_PLATFORM=offscreen
-  number: 2
+  number: 3
   entry_points:
     - yaqc-qtpy=yaqc_qtpy.__main__:main
   osx_is_app: true
