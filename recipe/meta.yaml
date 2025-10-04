@@ -7,13 +7,13 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/yaqc-qtpy-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/yaqc-qtpy-{{ version }}.tar.gz
   sha256: 6a6b73fb3179882bc46a18a1de9fc6c8ced2fffb8d0f5e00ed816a8d598a4ead
 
 build:
   script_env:
     - QT_QPA_PLATFORM=offscreen
-  number: 3
+  number: 4
   entry_points:
     - yaqc-qtpy=yaqc_qtpy.__main__:main
   osx_is_app: true
